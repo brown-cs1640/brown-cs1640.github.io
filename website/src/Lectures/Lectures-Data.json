@@ -1,0 +1,322 @@
+[
+  {
+    "Date": "Jan 22",
+    "Topic": "1. Intro. to CS167 and OS",
+    "Reading": "Sections 1.1 and 1.2",
+    "Slides": "lectures/01IntroX.pdf",
+    "Notes": "lectures/01Intro.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=543201b8-23ab-4e74-8393-b26600fd259c"
+  },
+  {
+    "Date": "Jan 24",
+    "Topic": "2. Threads Implementations",
+    "Reading": "Section 5.1",
+    "Slides": "lectures/02ThreadsImpX.pdf",
+    "Notes": "lectures/02ThreadsImp.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8d61d34c-fb3c-4a4e-9baa-b26600fd25e4"
+  },
+  {
+    "Date": "Jan 27",
+    "Topic": "3. Threads Implementations",
+    "Reading": "",
+    "Slides": "lectures/03ThreadsImp2X.pdf",
+    "Notes": "lectures/03ThreadsImp2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=66dec8a6-7285-4caf-a3a1-b26600fd2614"
+  },
+  {
+    "Date": "Jan 29",
+    "Topic": "4. Threads Implementations",
+    "Reading": "",
+    "Slides": "lectures/04ThreadsImp3X.pdf",
+    "Notes": "lectures/04ThreadsImp3.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c2e65972-9e41-42a4-a451-b26600fd265a"
+  },
+  {
+    "Date": "Jan 31",
+    "Topic": "5. Interrupts",
+    "Reading": "Chapter 3, Section 5.2",
+    "Slides": "lectures/05ThreadsImp4X.pdf",
+    "Notes": "lectures/05ThreadsImp4.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c7085a2-a834-4bdd-9136-b26600fd2686"
+  },
+  {
+    "Date": "Feb 3",
+    "Topic": "6. I/O and Booting",
+    "Reading": "",
+    "Slides": "lectures/06InterruptsX.pdf",
+    "Notes": "lectures/06Interrupts.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855e1179-044d-4a4b-8021-b26600fd26a8"
+  },
+  {
+    "Date": "Feb 5",
+    "Topic": "7. Introduction to Unix™ and Weenix OS Structure",
+    "Reading": "Section 4.1",
+    "Slides": "lectures/07IOX.pdf",
+    "Notes": "lectures/07IO.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e114a44c-3c14-4408-a148-b26600fd26cf"
+  },
+  {
+    "Date": "Feb 7",
+    "Topic": "8. Introduction to Unix™ and Weenix OS Structure",
+    "Reading": "",
+    "Slides": "lectures/08UnixStructureX.pdf",
+    "Notes": "lectures/08UnixStructure.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eb0fa92-ece5-4b9f-8780-b26600fd26f1"
+  },
+  {
+    "Date": "Feb 10",
+    "Topic": "9. OS Design:  Virtual Machines",
+    "Reading": "Section 4.2.1",
+    "Slides": "lectures/09VirtMach1X.pdf",
+    "Notes": "lectures/09VirtMach1.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5abcb080-cc4b-42c6-97fc-b26600fd2712"
+  },
+  {
+    "Date": "Feb 12",
+    "Topic": "10. OS Design:  Virtual Machines",
+    "Reading": "",
+    "Slides": "lectures/10VirtMach2X.pdf",
+    "Notes": "lectures/10VirtMach2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=258a871d-523e-4026-a449-b26600fd2734"
+  },
+  {
+    "Date": "Feb 14",
+    "Topic": "11. OS Design: Microkernels",
+    "Reading": "Section 4.2.2",
+    "Slides": "lectures/11SchedulingX.pdf",
+    "Notes": "lectures/11Scheduling.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b0636c1e-aa32-4834-bbf1-b26600fd275b"
+  },
+  {
+    "Date": "Feb 17",
+    "Topic": "Holiday!",
+    "Reading": "",
+    "Slides": "",
+    "Notes": "",
+    "Recording": ""
+  },
+  {
+    "Date": "Feb 19",
+    "Topic": "12. Scheduling",
+    "Reading": "Section 5.3",
+    "Slides": "lectures/12Scheduling2X.pdf",
+    "Notes": "lectures/12Scheduling2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7529a57c-f2ea-4049-9bcd-b26600fd279a"
+  },
+  {
+    "Date": "Feb 21",
+    "Topic": "13. Scheduling",
+    "Reading": "",
+    "Slides": "lectures/13Scheduling3X.pdf",
+    "Notes": "lectures/13Scheduling3.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db2fbe2e-ed07-40ce-95a7-b26600fd27c4"
+  },
+  {
+    "Date": "Feb 24",
+    "Topic": "14. Scheduling",
+    "Reading": "",
+    "Slides": "lectures/14File1X.pdf",
+    "Notes": "lectures/14File1.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=40669002-ff26-4d0b-9fa7-b26600fd27e5"
+  },
+  {
+    "Date": "Feb 26",
+    "Topic": "15. File Systems",
+    "Reading": "Chapter 7",
+    "Slides": "lectures/15File2X.pdf",
+    "Notes": "lectures/15File2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2443c3e4-83cb-4833-98a2-b26600fd280c"
+  },
+  {
+    "Date": "Feb 28",
+    "Topic": "16. File Systems",
+    "Reading": "",
+    "Slides": "lectures/16File3X.pdf",
+    "Notes": "lectures/16File3.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2296e625-0e8e-457d-9182-b26600fd2828"
+  },
+  {
+    "Date": "March 3",
+    "Topic": "17. File Systems",
+    "Reading": "",
+    "Slides": "lectures/17File4X.pdf",
+    "Notes": "lectures/17File4.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b07347c0-0dbb-45e8-91cc-b26600fd2845"
+  },
+  {
+    "Date": "March 5",
+    "Topic": "18. File Systems",
+    "Reading": "",
+    "Slides": "lectures/18File5X.pdf",
+    "Notes": "lectures/18File5.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd1b8326-2f56-428c-8dc0-b26600fd2859"
+  },
+  {
+    "Date": "March 7",
+    "Topic": "19. File Systems",
+    "Reading": "",
+    "Slides": "lectures/19File6X.pdf",
+    "Notes": "lectures/19File6.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c1e788ad-b36a-45d4-bdb8-b26600fd2871"
+  },
+  {
+    "Date": "March 10",
+    "Topic": "20. File Systems",
+    "Reading": "",
+    "Slides": "lectures/20File7X.pdf",
+    "Notes": "lectures/20File7.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4efb36cb-74b7-4c2f-8abe-b26600fd2887"
+  },
+  {
+    "Date": "March 12",
+    "Topic": "21. Virtual Memory: Architecture",
+    "Reading": "Sections 6.1, 6.2",
+    "Slides": "lectures/21VM1X.pdf",
+    "Notes": "lectures/21VM1.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bb538401-374f-45bd-a636-b26600fd289f"
+  },
+  {
+    "Date": "3.14 1:59pm",
+    "Topic": "22. Virtual Memory: OS",
+    "Reading": "Section 6.3",
+    "Slides": "lectures/22VM2X.pdf",
+    "Notes": "lectures/22VM2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aaab0a6a-59d3-4eb2-a918-b26600fd28b7"
+  },
+  {
+    "Date": "March 17",
+    "Topic": "23. Virtual Memory: OS",
+    "Reading": "",
+    "Slides": "lectures/23VM2X.pdf",
+    "Notes": "lectures/23VM2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9cde0631-0597-433d-bb9e-b26600fd28d4"
+  },
+  {
+    "Date": "March 19",
+    "Topic": "24. Virtual Memory: OS",
+    "Reading": "",
+    "Slides": "lectures/24VM3X.pdf",
+    "Notes": "lectures/24VM3.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0671c16f-a925-408d-89bf-b26600fd28f0"
+  },
+  {
+    "Date": "March 21",
+    "Topic": "25. Weenix Review",
+    "Reading": "",
+    "Slides": "lectures/25VM4X.pdf",
+    "Notes": "lectures/25VM4.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a80ee211-a801-46b9-87af-b26600fd2908"
+  },
+  {
+    "Date": "March 24",
+    "Topic": "Holiday!",
+    "Reading": "",
+    "Slides": "",
+    "Notes": "",
+    "Recording": ""
+  },
+  {
+    "Date": "March 26",
+    "Topic": "Holiday!",
+    "Reading": "",
+    "Slides": "",
+    "Notes": "",
+    "Recording": ""
+  },
+  {
+    "Date": "March 28",
+    "Topic": "Holiday!",
+    "Reading": "",
+    "Slides": "",
+    "Notes": "",
+    "Recording": ""
+  },
+  {
+    "Date": "March 31",
+    "Topic": "26. Security",
+    "Reading": "Chapter 10",
+    "Slides": "lectures/26Security2X.pdf",
+    "Notes": "lectures/26Security2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c7340a0b-49a9-44db-8602-b26600fd296e"
+  },
+  {
+    "Date": "April 2",
+    "Topic": "27. Security",
+    "Reading": "",
+    "Slides": "lectures/27Security3X.pdf",
+    "Notes": "lectures/27Security3.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=191b6a2a-6171-4cec-8184-b26600fd2986"
+  },
+  {
+    "Date": "April 4",
+    "Topic": "28. Security",
+    "Reading": "Section 8.1",
+    "Slides": "lectures/28Security4X.pdf",
+    "Notes": "lectures/28Security4.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d1902a1-f712-4461-8657-b26600fd29a2"
+  },
+  {
+    "Date": "April 7",
+    "Topic": "29. Security",
+    "Reading": "",
+    "Slides": "lectures/29Security5X.pdf",
+    "Notes": "lectures/29Security5.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9dc8f1e6-ae3d-4564-a220-b26600fd29ba"
+  },
+  {
+    "Date": "April 9",
+    "Topic": "30. Communication Protocols",
+    "Reading": "Section 8.2",
+    "Slides": "lectures/30Security6X.pdf",
+    "Notes": "lectures/30Security6.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=756dc329-febb-4ae7-a0b5-b26600fd29db"
+  },
+  {
+    "Date": "April 11",
+    "Topic": "31. Remote Procedure Call Protocols",
+    "Reading": "Section 8.2",
+    "Slides": "lectures/31Security7X.pdf",
+    "Notes": "lectures/31Security7.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eeb57766-7ab4-42e5-be10-b26600fd2a01"
+  },
+  {
+    "Date": "April 14",
+    "Topic": "32. Distributed File Systems",
+    "Reading": "Chapter 9",
+    "Slides": "lectures/32NetworkingX.pdf",
+    "Notes": "lectures/32Networking.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c85ce80-d5bf-4dab-9c09-b26600fd2a26"
+  },
+  {
+    "Date": "April 16",
+    "Topic": "33. Distributed File Systems",
+    "Reading": "",
+    "Slides": "lectures/33RPCX.pdf",
+    "Notes": "lectures/33RPC.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f833122-1834-400a-abcb-b26600fd2a48"
+  },
+  {
+    "Date": "April 18",
+    "Topic": "34: Distributed File Systems",
+    "Reading": "",
+    "Slides": "lectures/34DFSX.pdf",
+    "Notes": "lectures/34DFS.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99925c9b-c8f7-4305-85ad-b26600fd2a68"
+  },
+  {
+    "Date": "April 21",
+    "Topic": "35. Avoiding Operating Systems",
+    "Reading": "",
+    "Slides": "lectures/35DFS2X.pdf",
+    "Notes": "lectures/35DFS2.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=caa1b6e6-2b0d-445d-8720-b26600fd2a88"
+  },
+  {
+    "Date": "April 23",
+    "Topic": "36: Summing Up",
+    "Reading": "",
+    "Slides": "lectures/36FiniX.pdf",
+    "Notes": "lectures/36Fini.pdf",
+    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4458089c-3a66-414a-bd59-b26600fd2aa5"
+  }
+]
