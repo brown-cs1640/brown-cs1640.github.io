@@ -3,8 +3,8 @@ import StaffCard from './StaffCard'
 import "./Staff.css"
 
 import defaultImg from "./photos/item/default.jpg"
-import tom from "./photos/actual/tom.jpg"
-import tom2 from "./photos/item/Tom_machine.jpg";
+import nikos from "./photos/actual/nikos.jpg"
+import nikos2 from "./photos/item/Tom_machine.jpg";
 import ayman from "./photos/actual/ayman.jpg"
 import angel from "./photos/actual/angel.jpg"
 import angel2 from "./photos/item/angel.png"
@@ -33,11 +33,11 @@ export default function Staff() {
       <h4>Professor</h4>
       <div className="center">
         <StaffCard
-          name="Tom Doeppner"
+          name="Nikos Triandopoulos"
           pronouns="he/him/his"
-          email="twd@cs.brown.edu"
-          image={tom}
-          item={tom2}
+          email="	nikolaos_triandopoulos@brown.edu"
+          image={nikos}
+          item={nikos2}
           hours="MWF 3-4PM (CIT405)"
         />
       </div>
@@ -63,14 +63,14 @@ export default function Staff() {
       <h4>UTAs</h4>
 
       <div className="center">
-      <StaffCard
+        <StaffCard
           name="Angel Arrazola"
           pronouns="he/him/his"
           email="angel_arrazola@brown.edu"
           image={angel}
           item={angel2}
         />
-      <StaffCard
+        <StaffCard
           name="Alex Cueva"
           pronouns="he/him/his"
           email="alexander_cueva@brown.edu"
