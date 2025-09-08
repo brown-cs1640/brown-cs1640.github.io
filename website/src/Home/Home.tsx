@@ -18,61 +18,42 @@ export default function Home() {
           <Container>
             <h2>Welcome!</h2>
             <p>
-              In this class, you'll have the opportunity to learn both the
-              overarching principles of operating systems as well as the
-              intricacies of how they work.
+              In this class, you'll have the opportunity to explore the
+              fascinating intersection of Artificial Intelligence and Computer
+              Security - two of the most rapidly evolving and impactful fields
+              in computer science today.
             </p>
             <br />
             <p>
-              We'll cover topics including multithreaded programming; managing
-              threads, interrupts, and storage; processor scheduling; operating
-              system structure; virtualization; security; and the design of both
-              local and distributed file systems. You'll develop your skill as a
-              C programmer while simultaneously learning what goes on inside
-              your computer from the moment you power it on.
+              We'll cover topics including trustworthy and privacy-preserving
+              Machine Learning, secure federated learning, adversarial machine
+              learning, AI-based cyber defenses and attacks, differential
+              privacy, homomorphic encryption, and emerging challenges around
+              super intelligence, AI safety, alignment and transparency. You'll
+              develop critical thinking skills about how these fields influence
+              each other, and understand how these fields may continue to evolve
+              in the future.
             </p>
             <br />
             <p>
-              As part of the class, if you are enrolled in CS167, you may choose
-              to take the (optional) half-credit lab, CS169. If you do so, you
-              will attend the same lectures and complete the written assignments
-              as usual. However, you will only complete the first two
-              programming assignments from CS167, before embarking on an
-              in-depth project wherein you build much of the functionality of a
-              small operating system called Weenix. It is a significant time
-              investment, and you'll still get a lot from the class if you don't
-              take the lab. Some thoughts on taking CS169 from previous students
-              can be found{" "}
-              <a
-                href="https://brown-cs1690.github.io/brown-cs167-s22/content/169.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                here
-              </a>
-              . CS267 covers the material of both CS167 and 169; it is for
-              graduate students only.
+              This course mixes traditional lectures with seminar-style
+              discussions, hands-on assignments that connect technical work with
+              societal questions, and a final project. We’ll dive into
+              real-world issues, like how attackers can break AI systems, how
+              cryptography and machine learning go hand-in-hand, and the ways AI
+              can both strengthen and weaken cybersecurity. This is a
+              perspective rarely gained by studying these subjects in isolation,
+              making CSCI 1640 an essential foundation for understanding the
+              security challenges of an AI-driven world.
             </p>
 
             <h3>Important Info</h3>
-            <p>
-              Lectures: MWF 2-2:50pm ET, Metcalf Research Building AUD
-            </p>
-            <br />
-            <p>
-              <a
-                href="https://forms.gle/5k8ko1LkJvxba7tt8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Onboarding and Collaboration Policy Form
-              </a>
-            </p>
+            <p>Lectures: M 3-5:30pm ET, CIT 241</p>
             <br />
             <p>
               Course Feedback: Fill out the{" "}
               <a
-                href="/"
+                href="https://forms.gle/KSb8Z4GnhNuL6AJU6"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -87,13 +68,21 @@ export default function Home() {
             </ul>
             <p> Prerequisites: </p>
             <ul>
-              <li>CSCI0300, CSCI0330, CSCI1330, or CSCI1310</li>
+              <li>
+                CSCI 0410, 1410, 1411, 1420, 1950F, 1470 or 2470 <br></br>{" "}
+                <u>
+                  <b>and</b>
+                </u>{" "}
+                CSCI 1510, 1515, 1650, 1951H, 1660 or 2660
+              </li>
             </ul>
-            <p>Textbook:</p>
+            <p>Reading Material:</p>
             <ul>
               <li>
-                Operating Systems in Depth, by Doeppner, Wiley 2011. ISBN:
-                978-0-471-68723-8
+                All learning resources are deployed, managed, and become
+                available <br></br> to students through this website. See the
+                course calendar for notes <br></br> and the resources tab for
+                external readings.
               </li>
             </ul>
             <br />
