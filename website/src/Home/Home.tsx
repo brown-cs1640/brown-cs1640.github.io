@@ -66,6 +66,11 @@ export default function Home() {
               <li>cs1640headtas@lists.brown.edu</li>
               <li>cs1640tas@lists.brown.edu</li>
             </ul>
+            <p> Course Essentials:</p>
+            <ul>
+              <li>Gradescope: Please join via Canvas</li>
+              <li>Edstem: Please join via Canvas</li>
+            </ul>
             <p> Prerequisites: </p>
             <ul>
               <li>
