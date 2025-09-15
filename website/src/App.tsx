@@ -9,10 +9,8 @@ import "./globalstyles.css";
 import { Route, Routes } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import Home from "./Home/Home";
-import Assignments from "./Assignments/Assignments";
 import Calendar from "./Calendar/Calendar";
 import Lectures from "./Lectures/Lectures";
-import Resources from "./Resources/Resources";
 import Staff from "./Staff/Staff";
 
 function App() {
@@ -49,17 +47,11 @@ function App() {
               <LinkContainer to="/lectures">
                 <Nav.Link href="/lectures">Lectures</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/assignments">
-                <Nav.Link href="/assignments">Assignments</Nav.Link>
-              </LinkContainer>
               <LinkContainer to="/calendar">
                 <Nav.Link href="/calendar">Calendar</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/staff">
                 <Nav.Link href="/staff">Staff</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/resources">
-                <Nav.Link href="/resources">Resources</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
@@ -70,10 +62,8 @@ function App() {
         {/* <Route exact path="/Portfolio" element={  <App /> }/> */}
         <Route path="/" element={<Home />} />
         <Route path="/lectures" element={<Lectures />} />
-        <Route path="/assignments" element={<Assignments />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/staff" element={<Staff />} />
-        <Route path="/resources" element={<Resources />} />
       </Routes>
 
       <div className="footer">© BROWN UNIVERSITY 2025 CS1640 STAFF</div>

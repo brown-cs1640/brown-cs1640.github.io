@@ -1,12 +1,12 @@
-import React from 'react'
-import StaffCard from './StaffCard'
-import "./Staff.css"
+import React from "react";
+import StaffCard from "./StaffCard";
+import "./Staff.css";
 
-import defaultImg from "./photos/item/default.jpg"
-import nikos from "./photos/actual/nikos.jpg"
+import defaultImg from "./photos/item/default.jpg";
+import nikos from "./photos/actual/nikos.jpg";
 import nikos2 from "./photos/item/alex.jpg";
-import alex from "./photos/actual/alex.jpg"
-import alex2 from "./photos/item/alex.jpg"
+import alex from "./photos/actual/alex.jpg";
+import alex2 from "./photos/item/alex.jpg";
 
 export default function Staff() {
   return (
@@ -20,7 +20,7 @@ export default function Staff() {
           email="	nikolaos_triandopoulos@brown.edu"
           image={nikos}
           item={nikos2}
-          hours="Hours: TBD"
+          hours="Hours: M,T 1-2 or by appt -- CIT 223"
         />
       </div>
 
@@ -32,6 +32,7 @@ export default function Staff() {
           email="alexander_cueva@brown.edu"
           image={alex}
           item={alex2}
+          hours="Hours: Th 4-5pm -- CIT 143"
         />
       </div>
 
@@ -44,6 +45,7 @@ export default function Staff() {
           email="keyan_rahimi@brown.edu"
           image={defaultImg}
           item={alex2}
+          hours="Hours: Tu 4-5pm -- CIT 143"
         />
       </div>
     </div>

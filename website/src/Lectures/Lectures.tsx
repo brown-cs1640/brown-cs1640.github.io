@@ -12,7 +12,7 @@ interface Lec {
   Topic: string;
   Reading: string;
   Slides: string;
-  Notes: string;
+  Quiz: string;
   Recording: string;
 }
 
@@ -25,7 +25,9 @@ function spawnOnce() {
   (function oneko() {
     const nekoEl = document.createElement("div");
 
-    let linkRect = document.getElementById("holidayEasterEgg")!.getBoundingClientRect();
+    let linkRect = document
+      .getElementById("holidayEasterEgg")!
+      .getBoundingClientRect();
     let nekoPosX = linkRect.right + 32;
     let nekoPosY = linkRect.bottom + 32;
 
@@ -113,10 +115,10 @@ function spawnOnce() {
       nekoEl.style.top = `${nekoPosY - 32}px`;
       nekoEl.style.zIndex = "2147483647";
 
-      let nekoFile = `${process.env.PUBLIC_URL}/oneko2.gif`
-      const curScript = document.currentScript
+      let nekoFile = `${process.env.PUBLIC_URL}/oneko2.gif`;
+      const curScript = document.currentScript;
       if (curScript && curScript.dataset.cat) {
-        nekoFile = curScript.dataset.cat
+        nekoFile = curScript.dataset.cat;
       }
       nekoEl.style.backgroundImage = `url(${nekoFile})`;
 
@@ -141,15 +143,17 @@ function spawnOnce() {
         lastFrameTimestamp = timestamp;
       }
       if (timestamp - lastFrameTimestamp > 100) {
-        lastFrameTimestamp = timestamp
-        frame()
+        lastFrameTimestamp = timestamp;
+        frame();
       }
       window.requestAnimationFrame(onAnimationFrame);
     }
 
     function setSprite(name: string, frame: number) {
       const sprite = spriteSets[name][frame % spriteSets[name].length];
-      nekoEl.style.backgroundPosition = `${sprite[0] * 64}px ${sprite[1] * 64}px`;
+      nekoEl.style.backgroundPosition = `${sprite[0] * 64}px ${
+        sprite[1] * 64
+      }px`;
     }
 
     function resetIdleAnimation() {
@@ -181,7 +185,7 @@ function spawnOnce() {
         }
         idleAnimation =
           avalibleIdleAnimations[
-          Math.floor(Math.random() * avalibleIdleAnimations.length)
+            Math.floor(Math.random() * avalibleIdleAnimations.length)
           ];
       }
 
@@ -255,7 +259,9 @@ function spawnOnce() {
     init();
   })();
 
-  (document.getElementById("holidayEasterEggNotes")! as HTMLAnchorElement).href = hrefLink;
+  (
+    document.getElementById("holidayEasterEggNotes")! as HTMLAnchorElement
+  ).href = hrefLink;
 }
 
 export default function Lectures() {
@@ -264,10 +270,31 @@ export default function Lectures() {
   const holidayEasterEgg = (
     <tr>
       <td>{holidayEasterEggDate}</td>
-      <td><button id="holidayEasterEgg" style={{padding: 0, border: 0, background: "none", color: "#FA4DD7"}} onClick={spawnOnce}>Holiday!</button></td>
+      <td>
+        <button
+          id="holidayEasterEgg"
+          style={{
+            padding: 0,
+            border: 0,
+            background: "none",
+            color: "#FA4DD7",
+          }}
+          onClick={spawnOnce}
+        >
+          Holiday!
+        </button>
+      </td>
       <td></td>
       <td>
-        Slides | {first ? <a id="holidayEasterEggNotes">Notes</a> : <a id="holidayEasterEggNotes" href={hrefLink}>Notes</a>} | Recording
+        Slides |{" "}
+        {first ? (
+          <a id="holidayEasterEggNotes">Notes</a>
+        ) : (
+          <a id="holidayEasterEggNotes" href={hrefLink}>
+            Notes
+          </a>
+        )}{" "}
+        | Recording
       </td>
     </tr>
   );
@@ -275,7 +302,7 @@ export default function Lectures() {
     if (lecture.Date === holidayEasterEggDate) return holidayEasterEgg;
     const slidesLink = lecture.Slides ? (
       <a
-        href={`${process.env.PUBLIC_URL}/${lecture.Slides}`}
+        href={lecture.Slides}
         target="_blank"
         rel="noreferrer"
       >
@@ -284,16 +311,16 @@ export default function Lectures() {
     ) : (
       "Slides"
     );
-    const notesLink = lecture.Notes ? (
+    const quizLink = lecture.Quiz ? (
       <a
-        href={`${process.env.PUBLIC_URL}/${lecture.Notes}`}
+        href={`${process.env.PUBLIC_URL}/${lecture.Quiz}`}
         target="_blank"
         rel="noreferrer"
       >
-        Notes
+        Quiz
       </a>
     ) : (
-      "Notes"
+      "Quiz"
     );
     const recordingLink = lecture.Recording ? (
       <a href={lecture.Recording} target="_blank" rel="noreferrer">
@@ -308,7 +335,7 @@ export default function Lectures() {
         <td>{lecture.Topic}</td>
         <td>{lecture.Reading}</td>
         <td>
-          {slidesLink} | {notesLink} | {recordingLink}
+          {slidesLink} | {recordingLink} | {quizLink}
         </td>
       </tr>
     );
