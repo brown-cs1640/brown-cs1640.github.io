@@ -24,7 +24,7 @@ export default function Staff() {
         />
       </div>
 
-      <h4>HTAs</h4>
+      <h4>HTA</h4>
       <div className="center">
         <StaffCard
           name="Alex Cueva"
@@ -36,7 +36,7 @@ export default function Staff() {
         />
       </div>
 
-      <h4>UTAs</h4>
+      <h4>UTA</h4>
 
       <div className="center">
         <StaffCard

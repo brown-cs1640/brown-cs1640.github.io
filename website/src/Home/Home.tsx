@@ -98,8 +98,7 @@ export default function Home() {
               <li>
                 All learning resources are deployed, managed, and become
                 available <br></br> to students through this website. See the
-                course calendar for notes <br></br> and the resources tab for
-                external readings.
+                course calendar for slides, quizzes, and readings.
               </li>
             </ul>
             <br />
