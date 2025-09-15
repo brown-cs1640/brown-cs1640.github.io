@@ -48,6 +48,18 @@ export default function Home() {
             </p>
 
             <h3>Important Info</h3>
+            <p>
+              {" "}
+              Syllabus: See{" "}
+              <a
+                href="https://drive.google.com/file/d/12UR6o__RDYoIrxSIYBxlF9uYnQhxMfKW/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>
+            </p>
+            <br />
             <p>Lectures: M 3-5:30pm ET, CIT 241</p>
             <br />
             <p>
