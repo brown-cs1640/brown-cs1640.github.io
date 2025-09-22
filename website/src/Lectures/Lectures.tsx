@@ -301,11 +301,7 @@ export default function Lectures() {
   const parseLectures = (lecture: Lec) => {
     if (lecture.Date === holidayEasterEggDate) return holidayEasterEgg;
     const slidesLink = lecture.Slides ? (
-      <a
-        href={lecture.Slides}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={lecture.Slides} target="_blank" rel="noreferrer">
         Slides
       </a>
     ) : (
@@ -329,11 +325,30 @@ export default function Lectures() {
     ) : (
       "Recording"
     );
+
+    const readings =
+      lecture.Reading === "-"
+        ? ["-"]
+        : lecture.Reading.split(",").map((reading, idx) => (
+            <a
+              key={idx}
+              href={reading.trim()}
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                marginRight: "8px",
+                fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
+                fontWeight: "bold",
+              }}
+            >
+              {idx + 1}
+            </a>
+          ));
     return (
       <tr>
         <td>{lecture.Date}</td>
         <td>{lecture.Topic}</td>
-        <td>{lecture.Reading}</td>
+        <td>{readings}</td>
         <td>
           {slidesLink} | {recordingLink} | {quizLink}
         </td>
