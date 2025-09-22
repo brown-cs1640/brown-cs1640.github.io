@@ -12,6 +12,7 @@ import Home from "./Home/Home";
 import Calendar from "./Calendar/Calendar";
 import Lectures from "./Lectures/Lectures";
 import Staff from "./Staff/Staff";
+import Resources from "./Resources/Resources";
 
 function App() {
   return (
@@ -53,6 +54,9 @@ function App() {
               <LinkContainer to="/staff">
                 <Nav.Link href="/staff">Staff</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/resources">
+                <Nav.Link href="/resources">Resources</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -64,6 +68,7 @@ function App() {
         <Route path="/lectures" element={<Lectures />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/staff" element={<Staff />} />
+        <Route path="/resources" element={<Resources />} />
       </Routes>
 
       <div className="footer">© BROWN UNIVERSITY 2025 CS1640 STAFF</div>
