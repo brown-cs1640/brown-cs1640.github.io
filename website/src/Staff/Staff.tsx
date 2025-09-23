@@ -7,6 +7,8 @@ import nikos from "./photos/actual/nikos.jpg";
 import nikos2 from "./photos/item/alex.jpg";
 import alex from "./photos/actual/alex.jpg";
 import alex2 from "./photos/item/alex.jpg";
+import keyan from "./photos/actual/keyan.jpg";
+import keyan2 from "./photos/item/keyan2.jpg";
 
 export default function Staff() {
   return (
@@ -32,7 +34,7 @@ export default function Staff() {
           email="alexander_cueva@brown.edu"
           image={alex}
           item={alex2}
-          hours="Hours: Th 4-5pm -- CIT 143"
+          hours="Hours: Thurs. 4-5pm -- CIT 143"
         />
       </div>
 
@@ -43,9 +45,9 @@ export default function Staff() {
           name="Keyan Rahimi"
           pronouns="he/him/his"
           email="keyan_rahimi@brown.edu"
-          image={defaultImg}
-          item={alex2}
-          hours="Hours: Tu 4-5pm -- CIT 143"
+          image={keyan}
+          item={keyan2}
+          hours="Hours: Tues. 4-5pm -- CIT 143"
         />
       </div>
     </div>
