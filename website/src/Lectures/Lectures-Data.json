@@ -25,7 +25,7 @@
   },
   {
     "Date": "Sep 29",
-    "Topic": "Security in Machine Learning I: Outsourced ML, Federated Learning, MPC & Homomorphic Encryption",
+    "Topic": "AI and Machine Learning",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -33,7 +33,7 @@
   },
   {
     "Date": "Oct 6",
-    "Topic": "Security in Machine Learning II: Differential Privacy & Crypto-Enhanced NNs",
+    "Topic": "Security in Machine Learning I: Outsourced ML, Federated Learning, MPC & Homomorphic Encryption",
     "Reading": "https://drive.google.com/file/d/13rm4ebmepFQgGAdEU55OyA0OmZW-TcEr/view?usp=sharing",
     "Slides": "",
     "Quiz": "",
@@ -49,7 +49,7 @@
   },
   {
     "Date": "Oct 20",
-    "Topic": "Adversarial Machine Learning I: Poisoning Attacks & Evasion Attacks",
+    "Topic": "Security in Machine Learning II: Differential Privacy & Crypto-Enhanced NNs",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -57,7 +57,7 @@
   },
   {
     "Date": "Oct 27",
-    "Topic": "Adversarial Machine Learning II: Membership Inference Attacks & Model Inversion Attacks",
+    "Topic": "Adversarial Machine Learning I: Poisoning Attacks & Evasion Attacks",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -65,7 +65,7 @@
   },
   {
     "Date": "Nov 3",
-    "Topic": "AI for Cyber Defense: Information-based Security, SIEM, Threat Detection",
+    "Topic": "Adversarial Machine Learning II: Membership Inference Attacks & Model Inversion Attacks",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -73,7 +73,7 @@
   },
   {
     "Date": "Nov 10",
-    "Topic": "AI for Cyber Attacks: Data-Driven Brute-Force Attacks, GANs, Deepfakes",
+    "Topic": "AI for Cyber Defense: Information-based Security, SIEM, Threat Detection",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -81,7 +81,7 @@
   },
   {
     "Date": "Nov 17",
-    "Topic": "Security Issues in AI Technologies I: LLMs, Chatbots, Smart Speakers, Autonomous Cars",
+    "Topic": "AI for Cyber Attacks: Data-Driven Brute-Force Attacks, GANs, Deepfakes",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -89,7 +89,7 @@
   },
   {
     "Date": "Nov 24",
-    "Topic": "Security Issues in AI Technologies II: Super Intelligence, Types of Rationality, AI Safety, Alignment & Transparency",
+    "Topic": "Security Issues in AI Technologies I: LLMs, Chatbots, Smart Speakers, Autonomous Cars",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -97,7 +97,7 @@
   },
   {
     "Date": "Dec 1",
-    "Topic": "Special Topic: TBD",
+    "Topic": "Security Issues in AI Technologies II: Super Intelligence, Types of Rationality, AI Safety, Alignment & Transparency",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
