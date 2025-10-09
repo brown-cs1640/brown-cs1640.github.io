@@ -14,6 +14,7 @@ interface Lec {
   Slides: string;
   Quiz: string;
   Recording: string;
+  Homework: string;
 }
 
 let first = true;
@@ -300,6 +301,7 @@ export default function Lectures() {
   );
   const parseLectures = (lecture: Lec) => {
     if (lecture.Date === holidayEasterEggDate) return holidayEasterEgg;
+
     const slidesLink = lecture.Slides ? (
       <a href={lecture.Slides} target="_blank" rel="noreferrer">
         Slides
@@ -307,6 +309,7 @@ export default function Lectures() {
     ) : (
       "Slides"
     );
+
     const quizLink = lecture.Quiz ? (
       <a
         href={`${process.env.PUBLIC_URL}/${lecture.Quiz}`}
@@ -318,6 +321,7 @@ export default function Lectures() {
     ) : (
       "Quiz"
     );
+
     const recordingLink = lecture.Recording ? (
       <a href={lecture.Recording} target="_blank" rel="noreferrer">
         Recording
@@ -344,6 +348,24 @@ export default function Lectures() {
               {idx + 1}
             </a>
           ));
+
+    const homework =
+      lecture.Homework && lecture.Homework.trim() !== "" ? (
+        <a
+          href={lecture.Homework}
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
+            fontWeight: "bold",
+          }}
+        >
+          HW
+        </a>
+      ) : (
+        ""
+      );
+
     return (
       <tr>
         <td>{lecture.Date}</td>
@@ -352,9 +374,11 @@ export default function Lectures() {
         <td>
           {slidesLink} | {recordingLink} | {quizLink}
         </td>
+        <td>{homework}</td>
       </tr>
     );
   };
+
   return (
     <div className="lectures">
       <h3>Lectures</h3>
@@ -374,6 +398,7 @@ export default function Lectures() {
                   <th>Topic</th>
                   <th>Readings</th>
                   <th>Links</th>
+                  <th>Homework</th>
                 </tr>
               </thead>
               <tbody>{LectureData.map(parseLectures)}</tbody>
