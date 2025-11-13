@@ -266,7 +266,7 @@ function spawnOnce() {
 }
 
 export default function Lectures() {
-  // Hidden Egg, why March 24?
+  // Hidden Egg
   const holidayEasterEggDate = "March 24";
   const holidayEasterEgg = (
     <tr>
