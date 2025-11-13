@@ -2,7 +2,6 @@ import React from "react";
 import StaffCard from "./StaffCard";
 import "./Staff.css";
 
-import defaultImg from "./photos/item/default.jpg";
 import nikos from "./photos/actual/nikos.jpg";
 import nikos2 from "./photos/item/alex.jpg";
 import alex from "./photos/actual/alex.jpg";

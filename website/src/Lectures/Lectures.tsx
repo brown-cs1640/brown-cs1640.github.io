@@ -267,40 +267,7 @@ function spawnOnce() {
 
 export default function Lectures() {
   // Hidden Egg
-  const holidayEasterEggDate = "March 24";
-  const holidayEasterEgg = (
-    <tr>
-      <td>{holidayEasterEggDate}</td>
-      <td>
-        <button
-          id="holidayEasterEgg"
-          style={{
-            padding: 0,
-            border: 0,
-            background: "none",
-            color: "#FA4DD7",
-          }}
-          onClick={spawnOnce}
-        >
-          Holiday!
-        </button>
-      </td>
-      <td></td>
-      <td>
-        Slides |{" "}
-        {first ? (
-          <a id="holidayEasterEggNotes">Notes</a>
-        ) : (
-          <a id="holidayEasterEggNotes" href={hrefLink}>
-            Notes
-          </a>
-        )}{" "}
-        | Recording
-      </td>
-    </tr>
-  );
   const parseLectures = (lecture: Lec) => {
-    if (lecture.Date === holidayEasterEggDate) return holidayEasterEgg;
 
     const slidesLink = lecture.Slides ? (
       <a href={lecture.Slides} target="_blank" rel="noreferrer">
